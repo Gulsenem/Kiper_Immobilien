@@ -1,0 +1,180 @@
+*{box-sizing: border-box;}
+body
+{
+  margin:0;
+  font-family: 'Varela Round';
+}
+header
+{border-bottom: 1px solid #acb0ac;}
+.top-header
+{
+  background-color: #0744b9;
+  padding: 12px 0;
+  color:white;
+  font-size: 14px;
+}
+.top-header>div
+{
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+}
+.top-header img
+{
+  width:14px;
+  filter:invert(1);
+  margin-right: 5px;
+}
+.top-header span{margin-right: 20px;}
+
+.bottom-header
+{
+  max-width: 1100px;
+  margin:0 auto;
+  padding: 20px 0;
+
+
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-header-link
+{
+  display:flex;
+  align-items: center;
+}
+.bottom-header a:first-child, .bottom-header-link a:first-of-type
+{
+  border: 1px solid #0744b9;
+  border-radius: 3px;
+  color: #0744b9;
+}
+.bottom-header-link a:first-of-type
+{margin-left: 50px;}
+.bottom-header a, .card a
+ {
+  text-decoration: none;
+  color:black;
+  padding: 10px;
+  margin-right: 10px;
+}
+.bottom-header a:hover,
+ {
+  background-color: #0744b9;
+  color:white;
+  transition: background-color 0.5s;
+}
+
+.back-image img
+{
+  width:100%;
+  height:700px;
+}
+/***********************/
+.back-image p
+{
+  font-size: 68px;
+  font-family:Lato, arial;
+  font-weight:bold;
+
+}
+/***********************/
+.container
+{
+  max-width: 1100px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box
+{
+  flex: 0 1 300px;
+  margin: 50px 0;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2
+{
+  font-weight: 400;
+}
+.box p, .uber-uns p
+{ color:#969696;
+  font-weight: 400;
+  line-height: 25px;
+}
+.image
+{
+  background-color: rgb(4, 68, 177);
+  padding: 35px;
+  border-radius: 50%;
+}
+.box img
+{
+  width:60px;
+  border-radius: 50%;
+  filter: invert(1);
+}
+.container1
+{background-color: #f5f5f5;}
+.uber-uns
+{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.uberunsBox
+{
+  display: inline-block;
+  border-radius:3px;
+  box-shadow: 0px 0px 8px 0px #919191;
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+.uber-uns i
+{
+  font-size: 18px;
+  font-weight: 300;
+}
+.blue-animation
+{
+  background-color: #0744b9;
+  color:white;
+  text-align: center;
+  font-size:32px;
+  padding: 50px 0;
+}
+.container2
+{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.cards
+{
+  display:flex;
+}
+.card+.card
+{margin-left: 30px;}
+.card
+{
+  border: 1px solid #cdcdcd;
+  flex-grow: 1;
+
+  display:flex;
+  flex-direction: column;
+}
+.card>img
+{width:100%;
+height:300px;}
+.card span img, .card small img
+{
+  width:14px;
+}
+.card a:hover {color:#0744b9;}
